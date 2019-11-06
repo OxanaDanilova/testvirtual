@@ -1,0 +1,39 @@
+body {
+  color: blue;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+
+.text-panel {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  width: 800px; }
+
+.button {
+  width: 65px;
+  height: 50px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  font-size: 14.5px; }
+
+.func {
+  background-color: gray;
+  color: black;
+  width: 80px; }
+
+.space {
+  width: 400px; }
+
+.row {
+  display: flex;
+  justify-content: space-between; }
+
+.clicked {
+  background-color: #ff6500; }
+
